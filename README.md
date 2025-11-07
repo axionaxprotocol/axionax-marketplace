@@ -4,7 +4,7 @@ Decentralized marketplace for compute resources built on **AxionAX Protocol**.
 
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Protocol](https://img.shields.io/badge/Protocol-AxionAX-purple)](https://axionax.org)
-[![Status](https://img.shields.io/badge/Status-Beta-orange)](https://github.com/axionaxprotocol/axionaxiues)
+[![Status](https://img.shields.io/badge/Status-Beta-orange)](https://github.com/axionaxprotocol/axionax-core)
 
 ---
 
@@ -52,7 +52,7 @@ This marketplace is powered by AxionAX Protocol:
 - **Issue Manager**: [`../issue-manager`](../issue-manager) - Task tracking
 
 **Main Repository**:
-[axionaxprotocol/axionaxiues](https://github.com/axionaxprotocol/axionaxiues)
+[axionaxprotocol/axionax-core](https://github.com/axionaxprotocol/axionax-core)
 
 **Beta Status:** Core features complete, UI refinement in progress
 
@@ -277,7 +277,7 @@ Use [`../issue-manager`](../issue-manager) to track tasks.
 
 ### External Resources
 
-- **Main Repository**: https://github.com/axionaxprotocol/axionaxiues
+- **Main Repository**: https://github.com/axionaxprotocol/axionax-core
 - **Protocol Website**: https://axionax.org
 - **Documentation**: https://docs.axionax.org
 
