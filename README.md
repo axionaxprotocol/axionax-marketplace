@@ -4,7 +4,31 @@ Decentralized marketplace for compute resources built on **AxionAX Protocol**.
 
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Protocol](https://img.shields.io/badge/Protocol-AxionAX-purple)](https://axionax.org)
-[![Status](https://img.shields.io/badge/Status-In%20Development-orange)](https://github.com/axionaxprotocol/axionaxiues)
+[![Status](https://img.shields.io/badge/Status-Beta-orange)](https://github.com/axionaxprotocol/axionaxiues)
+
+---
+
+## 📢 Latest Update (November 2025)
+
+🎯 **Beta Testing Phase - Preparing for Public Testnet!**
+
+Current development status:
+
+✅ **Core Features Complete:**
+- Browse & search compute resources
+- Wallet integration (MetaMask, WalletConnect)
+- Token payments with AXX
+- Provider listings & ratings
+- Smart contract integration
+
+🔥 **Active Development:**
+- UI/UX refinement
+- Performance optimization
+- E2E testing
+- Smart contract auditing
+- Mobile responsiveness
+
+📦 **Marketplace Status:** Beta - ready for testnet deployment
 
 ---
 
@@ -23,10 +47,14 @@ This marketplace is powered by AxionAX Protocol:
 - **SDK**: [`../sdk`](../sdk) - Used for blockchain interaction
 - **Web Interface**: [`../web`](../web) - Main website
 - **Documentation**: [`../docs`](../docs) - Protocol documentation
+- **DevTools**: [`../devtools`](../devtools) - Testing utilities
 - **Deployment**: [`../deploy`](../deploy) - Infrastructure
+- **Issue Manager**: [`../issue-manager`](../issue-manager) - Task tracking
 
 **Main Repository**:
 [axionaxprotocol/axionaxiues](https://github.com/axionaxprotocol/axionaxiues)
+
+**Beta Status:** Core features complete, UI refinement in progress
 
 ---
 
@@ -68,53 +96,78 @@ This marketplace is powered by AxionAX Protocol:
 
 ## Installation
 
-\\\ash npm install
+```bash
+npm install
 
 # or
-
 yarn install
 
 # or
-
-pnpm install \\\
+pnpm install
+```
 
 ## Development
 
 ### Start dev server
 
-\\\ash npm run dev \\\
+```bash
+npm run dev
+```
 
 Open [http://localhost:5173](http://localhost:5173)
 
 ### Build for production
 
-\\\ash npm run build \\\
+```bash
+npm run build
+```
 
 ### Preview production build
 
-\\\ash npm run preview \\\
+```bash
+npm run preview
+```
 
 ### Lint code
 
-\\\ash npm run lint \\\
+```bash
+npm run lint
+```
 
 ## Project Structure
 
-\\\
-src/ components/ # React components marketplace/ # Marketplace-specific
-components common/ # Shared UI components pages/ # Route pages hooks/ # Custom
-React hooks contexts/ # React contexts (wallet, marketplace) contracts/ # Smart
-contract ABIs and addresses utils/ # Helper functions types/ # TypeScript types
-public/ # Static assets \\\
+```
+src/
+  components/          # React components
+    marketplace/       # Marketplace-specific components
+    common/           # Shared UI components
+  pages/              # Route pages
+  hooks/              # Custom React hooks
+  contexts/           # React contexts (wallet, marketplace)
+  contracts/          # Smart contract ABIs and addresses
+  utils/              # Helper functions
+  types/              # TypeScript types
+public/               # Static assets
+```
 
-## Connecting to Axionax
+## Connecting to AxionAX
 
-The marketplace connects to Axionax testnet by default:
+The marketplace connects to AxionAX testnet by default:
 
-\\\ ypescript import { AxionaxClient } from '@axionax/sdk';
+```typescript
+import { AxionaxClient } from '@axionax/sdk';
 
-const client = new AxionaxClient({ rpcUrl: 'https://rpc.axionax.org', chainId:
-1001 }); \\\
+const client = new AxionaxClient({
+  rpcUrl: 'https://rpc.axionax.org',
+  chainId: 86137  // AxionAX Testnet
+});
+```
+
+**Network Information:**
+- **Testnet Chain ID**: `86137`
+- **RPC**: `https://rpc.axionax.org` (Coming Q1 2026)
+- **Explorer**: `https://explorer.axionax.org` (Coming Q1 2026)
+- **Faucet**: `https://faucet.axionax.org` (Coming Q1 2026)
 
 ## Smart Contracts
 
@@ -125,8 +178,15 @@ The marketplace uses these smart contracts:
 - **EscrowManager** - Payment escrow and dispute resolution
 - **ReputationOracle** - Provider rating system
 
-Contract addresses for testnet: \\\
-ComputeMarketplace: 0x... ResourceNFT: 0x... EscrowManager: 0x... \\\
+**Contract addresses for testnet:**
+```
+ComputeMarketplace: 0x... (TBA - Testnet Launch)
+ResourceNFT: 0x... (TBA - Testnet Launch)
+EscrowManager: 0x... (TBA - Testnet Launch)
+ReputationOracle: 0x... (TBA - Testnet Launch)
+```
+
+**Note:** Contract addresses will be published after testnet deployment.
 
 ## Usage
 
@@ -148,26 +208,72 @@ ComputeMarketplace: 0x... ResourceNFT: 0x... EscrowManager: 0x... \\\
 
 ## Testing
 
-\\\ash npm run test npm run test:watch npm run test:coverage \\\
+```bash
+npm run test
+npm run test:watch
+npm run test:coverage
+```
+
+### E2E Testing
+
+```bash
+npm run test:e2e
+```
+
+**Testing Goals:**
+- Unit test coverage: >80%
+- Integration tests: All workflows
+- E2E tests: Critical user journeys
 
 ## Environment Variables
 
-Create \.env\ file:
+Create `.env` file:
 
-\\\env VITE_RPC_URL=https://rpc.axionax.org VITE_CHAIN_ID=1001
-VITE_MARKETPLACE_CONTRACT=0x... VITE_RESOURCE_NFT_CONTRACT=0x...
-VITE_ESCROW_CONTRACT=0x... \\\
+```env
+VITE_RPC_URL=https://rpc.axionax.org
+VITE_CHAIN_ID=86137
+VITE_MARKETPLACE_CONTRACT=0x...
+VITE_RESOURCE_NFT_CONTRACT=0x...
+VITE_ESCROW_CONTRACT=0x...
+VITE_REPUTATION_CONTRACT=0x...
+```
+
+**Note:** Contract addresses will be available after testnet deployment.
+
+---
+
+## 🎯 Pre-Testnet Development Checklist
+
+Track marketplace readiness:
+
+- [x] ✅ Core marketplace features
+- [x] ✅ Wallet integration (MetaMask, WalletConnect)
+- [x] ✅ Smart contract integration
+- [ ] 🔥 UI/UX refinement (90%)
+- [ ] 🔥 Mobile responsiveness (85%)
+- [ ] 📝 E2E testing (in progress)
+- [ ] 📝 Performance optimization
+- [ ] 📝 Smart contract deployment (pending testnet)
+- [ ] 📝 Contract address configuration
+
+Use [`../issue-manager`](../issue-manager) to track tasks.
+
+---
 
 ## Related Projects & AxionAX Ecosystem
 
 ### Core Components
 
-- **[Protocol Core](../core)** - AxionAX blockchain implementation
-- **[SDK](../sdk)** - TypeScript SDK (used by this marketplace)
-- **[Web Interface](../web)** - Official website
-- **[Documentation](../docs)** - Protocol documentation
-- **[DevTools](../devtools)** - Development utilities
-- **[Deploy](../deploy)** - Infrastructure deployment
+| Component              | Description                | Location                           | Status      |
+| ---------------------- | -------------------------- | ---------------------------------- | ----------- |
+| **Marketplace** (this) | Compute marketplace dApp   | `marketplace/`                     | 🚧 Beta     |
+| **Protocol Core**      | Blockchain implementation  | [`../core`](../core)               | ✅ Ready    |
+| **SDK**                | TypeScript SDK             | [`../sdk`](../sdk)                 | ✅ Ready    |
+| **Web Interface**      | Official website           | [`../web`](../web)                 | ✅ Ready    |
+| **Documentation**      | Protocol documentation     | [`../docs`](../docs)               | 📝 Active   |
+| **DevTools**           | Development utilities      | [`../devtools`](../devtools)       | ✅ Ready    |
+| **Deploy**             | Infrastructure deployment  | [`../deploy`](../deploy)           | 🔥 Testing  |
+| **Issue Manager**      | Task tracking              | [`../issue-manager`](../issue-manager) | 🎉 New! |
 
 ### External Resources
 
@@ -211,8 +317,29 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
+## 📊 Development Progress
+
+### Feature Completion
+
+- **Core Marketplace Logic**: 100% ✅
+- **Wallet Integration**: 100% ✅
+- **Smart Contract ABIs**: 100% ✅
+- **UI Components**: 90% 🔥
+- **Mobile Responsive**: 85% 🔥
+- **Testing Coverage**: 75% 📝
+- **Documentation**: 80% 📝
+
+### Known Limitations (Beta)
+
+- Smart contracts not yet deployed to testnet
+- RPC endpoints pending testnet launch
+- Some UI animations in progress
+- Mobile optimization ongoing
+
+---
+
 **Part of the AxionAX Protocol Ecosystem**
 
 Built with ❤️ by the AxionAX community
 
-**Last Updated**: November 6, 2025
+**Last Updated**: November 7, 2025
