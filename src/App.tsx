@@ -26,7 +26,7 @@ export function App() {
   return (
     <div className="mx-auto max-w-5xl p-8">
       <header className="mb-10 text-center">
-        <h1 className="text-4xl font-bold">Axionax Marketplace</h1>
+        <h1 className="text-4xl font-bold">axionax Marketplace</h1>
         <p className="mt-2 text-gray-600">Rent decentralized compute power with AXX tokens.</p>
       </header>
 

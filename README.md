@@ -1,9 +1,9 @@
-﻿# AxionAX Protocol - Compute Marketplace 🛍️
+﻿# axionax protocol - Compute Marketplace 🛍️
 
-Decentralized marketplace for compute resources built on **AxionAX Protocol**.
+Decentralized marketplace for compute resources built on **axionax protocol**.
 
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Protocol](https://img.shields.io/badge/Protocol-AxionAX-purple)](https://axionax.org)
+[![Protocol](https://img.shields.io/badge/Protocol-axionax-purple)](https://axionax.org)
 [![Status](https://img.shields.io/badge/Status-Beta-orange)](https://github.com/axionaxprotocol/axionax-core)
 
 ---
@@ -34,13 +34,13 @@ Current development status:
 
 ## Overview
 
-The **AxionAX Compute Marketplace** is a decentralized application (dApp) built
-on the AxionAX Protocol that enables users to trade compute resources securely
+The **axionax Compute Marketplace** is a decentralized application (dApp) built
+on the axionax protocol that enables users to trade compute resources securely
 and efficiently.
 
-### Part of AxionAX Ecosystem
+### Part of axionax Ecosystem
 
-This marketplace is powered by AxionAX Protocol:
+This marketplace is powered by axionax protocol:
 
 - **Protocol Core**: [`../core`](../core) - Provides PoPC consensus and
   validation
@@ -63,7 +63,7 @@ This marketplace is powered by AxionAX Protocol:
 ### For Buyers
 
 - **Browse Resources** - Search and filter available compute offerings
-- **Transparent Pricing** - See real-time prices based on AxionAX Protocol's
+- **Transparent Pricing** - See real-time prices based on axionax protocol's
   Posted Price Controller
 - **PoPC Validation** - Compute results validated by Proof of Probabilistic
   Checking
@@ -74,11 +74,11 @@ This marketplace is powered by AxionAX Protocol:
 
 - **List Resources** - Offer your compute power to the network
 - **Dynamic Pricing** - Prices adjusted by Protocol's Auto-Selection Router
-- **Smart Escrow** - Secure payments via AxionAX Protocol smart contracts
+- **Smart Escrow** - Secure payments via axionax protocol smart contracts
 - **Reputation Building** - Earn ratings for quality service
 - **Fair Assignment** - ML-powered worker selection ensures fairness
 
-### Built on AxionAX Protocol
+### Built on axionax protocol
 
 - ✅ **PoPC Consensus** - Probabilistic validation of compute results
 - ✅ **ASR Integration** - Auto-Selection Router for optimal matching
@@ -150,16 +150,16 @@ src/
 public/               # Static assets
 ```
 
-## Connecting to AxionAX
+## Connecting to axionax
 
-The marketplace connects to AxionAX testnet by default:
+The marketplace connects to axionax testnet by default:
 
 ```typescript
-import { AxionaxClient } from '@axionax/sdk';
+import { axionaxClient } from '@axionax/sdk';
 
-const client = new AxionaxClient({
+const client = new axionaxClient({
   rpcUrl: 'https://rpc.axionax.org',
-  chainId: 86137  // AxionAX Testnet
+  chainId: 86137  // axionax Testnet
 });
 ```
 
@@ -260,7 +260,7 @@ Use [`../issue-manager`](../issue-manager) to track tasks.
 
 ---
 
-## Related Projects & AxionAX Ecosystem
+## Related Projects & axionax Ecosystem
 
 ### Core Components
 
@@ -299,7 +299,7 @@ Use [`../issue-manager`](../issue-manager) to track tasks.
 
 MIT License - see [LICENSE](LICENSE) for details.
 
-**Note**: The AxionAX Protocol Core uses AGPLv3. See
+**Note**: The axionax protocol Core uses AGPLv3. See
 [`../core/LICENSE`](../core/LICENSE).
 
 ---
@@ -338,8 +338,8 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
-**Part of the AxionAX Protocol Ecosystem**
+**Part of the axionax protocol Ecosystem**
 
-Built with ❤️ by the AxionAX community
+Built with ❤️ by the axionax community
 
 **Last Updated**: November 7, 2025
