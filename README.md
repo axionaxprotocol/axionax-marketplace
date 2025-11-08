@@ -285,13 +285,11 @@ Use [`../issue-manager`](../issue-manager) to track tasks.
 
 ## Contributing
 
-1. Fork the main repository:
-   [axionaxprotocol/axionaxiues](https://github.com/axionaxprotocol/axionaxiues)
+1. Fork the repository: [axionaxprotocol/axionax-marketplace](https://github.com/axionaxprotocol/axionax-marketplace)
 2. Create feature branch (`git checkout -b feature/amazing-feature`)
-3. Work in the `marketplace/` directory
-4. Commit changes (`git commit -m 'Add amazing feature'`)
-5. Push to branch (`git push origin feature/amazing-feature`)
-6. Open a Pull Request
+3. Commit changes (`git commit -m 'Add amazing feature'`)
+4. Push to branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
 ---
 
@@ -307,8 +305,8 @@ MIT License - see [LICENSE](LICENSE) for details.
 ## Support
 
 - **Website**: https://axionax.org
-- **Docs**: https://docs.axionax.org or [`../docs`](../docs)
-- **Issues**: https://github.com/axionaxprotocol/axionaxiues/issues
+- **Docs**: https://docs.axionax.org or [`../axionax-docs`](../axionax-docs)
+- **Issues**: https://github.com/axionaxprotocol/axionax-marketplace/issues
 
 ### Community (Coming Q1 2026)
 
