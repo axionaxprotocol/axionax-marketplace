@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "@axionax/marketplace",
   "version": "0.1.0",
   "private": true,
@@ -10,7 +10,7 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
   },
   "dependencies": {
-    "@axionax/sdk": "^1.0.0",
+    "@axionax/sdk": "file:../axionax-sdk-ts",
     "react": "^18.3.0",
     "react-dom": "^18.3.0",
     "ethers": "^6.12.0",
